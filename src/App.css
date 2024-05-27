@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.borderBBT{
+  border: 1px solid grey;
+  margin: 10px 40px;
+  border-radius: 10px;
+}

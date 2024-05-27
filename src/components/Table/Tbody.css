@@ -1,0 +1,73 @@
+.tableDiv{
+
+}
+
+table{
+    width: 100%;
+    text-align: left;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+}
+
+table>thead>tr>th{
+    color: darkgreen;
+    background-color: rgb(242, 255, 242);
+    border: 1px solid darkgreen;
+    border-radius: 10px;
+}
+
+.Buy{
+    color: rgb(2, 202, 2);
+    border-radius: 10px;
+    border:1px solid rgb(100, 255, 100);
+    background-color: rgb(250, 255, 250);
+}
+
+.View{
+    color: dodgerblue;
+    border:1px solid rgb(94, 226, 255);
+    border-radius: 10px;
+    background-color: rgb(249, 254, 255);
+}
+
+.Rank{
+    border:1px solid rgb(255, 94, 94);
+    background-color: rgb(255, 251, 251);
+    border-radius: 10px;
+}
+
+.Name{
+    border:1px solid rgb(255, 184, 52);
+    background-color: rgb(254, 253, 251);
+    border-radius: 10px;
+}
+
+.CalmarRatio{
+    border:1px solid rgb(115, 22, 255);
+    background-color: rgb(252, 251, 255);
+    border-radius: 10px;
+}
+
+.OverallProfit{
+    border:1px solid rgb(164, 164, 22);
+    background-color: rgb(251, 251, 248);
+    border-radius: 10px;
+}
+
+.AvgDailyProfit{
+    border:1px solid rgb(46, 255, 241);
+    background-color: rgb(250, 255, 254);
+    border-radius: 10px;
+}
+
+.Win{
+    border:1px solid rgb(255, 121, 255);
+    background-color: rgb(255, 251, 255);
+    border-radius: 10px;
+}
+
+.Price{
+    border:1px solid rgb(255, 71, 99);
+    background-color: rgb(255, 251, 251);
+    border-radius: 10px;
+}

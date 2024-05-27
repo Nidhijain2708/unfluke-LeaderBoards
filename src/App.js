@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Unfluke from './components/Unfluke/Unfluke';
+import Leader from './components/Leader/Leader.js';
+import Tbody from './components/Table/Tbody.js';
+import BB from './components/BB/BB.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Unfluke />
+      <Leader />
+      <div className='borderBBT'>
+        <BB />
+        <Tbody />
+      </div>
+    </>
   );
 }
 

@@ -1,0 +1,12 @@
+.divUn{
+    border: 1px solid grey;
+    height: 50px;
+}
+
+.headUn{
+    margin: 8px 20px;
+    font-size: 28px;
+    font-weight: 600;
+    color: darkgreen;
+    font-family: monospace;
+}
